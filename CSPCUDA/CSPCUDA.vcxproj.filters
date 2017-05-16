@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="XMLModelFac.cpp">
+      <Filter>XMLBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLModel.cpp">
+      <Filter>XMLModel</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLFile.cpp">
+      <Filter>BMFile</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>CSP</Filter>
+    </ClCompile>
+    <ClCompile Include="AC4.cpp">
+      <Filter>CSP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CUDAModel.cuh">
+      <Filter>CUDACSP</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLModelFac.h">
+      <Filter>XMLBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLModel.h">
+      <Filter>XMLModel</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLFile.h">
+      <Filter>BMFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>CSP</Filter>
+    </ClInclude>
+    <ClInclude Include="AC4.h">
+      <Filter>CSP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="benchmarks">
+      <UniqueIdentifier>{6dd733fc-d07f-4308-8745-6c9f55cbe3f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="benchmarks\composed-25-1-2">
+      <UniqueIdentifier>{fe0d9221-dd8c-4335-a153-f29b181793a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDACSP">
+      <UniqueIdentifier>{256764db-4623-4b53-bc5a-ce380889bb08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XMLBuilder">
+      <UniqueIdentifier>{620eee6a-5fbd-42ae-81c0-328644d852f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XMLModel">
+      <UniqueIdentifier>{ebaab65a-95a6-4181-b857-dca061af7d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BMFile">
+      <UniqueIdentifier>{a5358f88-6575-4d94-8328-fbc924dc93c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XMLFiles">
+      <UniqueIdentifier>{2009aa88-673d-4a24-8e7a-c903353d6067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AC">
+      <UniqueIdentifier>{d3eec346-3f80-4ac1-9260-f73fdc4b8cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSP">
+      <UniqueIdentifier>{38aa33d8-ac24-4f49-bdc2-662c189899dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\benchmarks\composed-25-1-2\composed-25-1-2-0_ext.xml">
+      <Filter>benchmarks\composed-25-1-2</Filter>
+    </Xml>
+    <Xml Include="..\..\benchmarks\composed-25-1-2\composed-25-1-2-1_ext.xml">
+      <Filter>benchmarks\composed-25-1-2</Filter>
+    </Xml>
+    <Xml Include="..\..\benchmarks\composed-25-1-2\composed-25-1-2-2_ext.xml">
+      <Filter>benchmarks\composed-25-1-2</Filter>
+    </Xml>
+    <Xml Include="..\..\benchmarks\composed-25-1-2\composed-25-1-2-3_ext.xml">
+      <Filter>benchmarks\composed-25-1-2</Filter>
+    </Xml>
+    <Xml Include="..\..\benchmarks\composed-25-1-2\composed-25-1-2-4_ext.xml">
+      <Filter>benchmarks\composed-25-1-2</Filter>
+    </Xml>
+    <Xml Include="..\..\benchmarks\composed-25-1-2\composed-25-1-2-5_ext.xml">
+      <Filter>benchmarks\composed-25-1-2</Filter>
+    </Xml>
+    <Xml Include="..\..\benchmarks\composed-25-1-2\composed-25-1-2-6_ext.xml">
+      <Filter>benchmarks\composed-25-1-2</Filter>
+    </Xml>
+    <Xml Include="..\..\benchmarks\composed-25-1-2\composed-25-1-2-7_ext.xml">
+      <Filter>benchmarks\composed-25-1-2</Filter>
+    </Xml>
+    <Xml Include="..\..\benchmarks\composed-25-1-2\composed-25-1-2-8_ext.xml">
+      <Filter>benchmarks\composed-25-1-2</Filter>
+    </Xml>
+    <Xml Include="..\..\benchmarks\composed-25-1-2\composed-25-1-2-9_ext.xml">
+      <Filter>benchmarks\composed-25-1-2</Filter>
+    </Xml>
+    <Xml Include="XMLFile.xml">
+      <Filter>XMLFiles</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="CUDAModel.cu">
+      <Filter>CUDACSP</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text.txt" />
+  </ItemGroup>
+</Project>
